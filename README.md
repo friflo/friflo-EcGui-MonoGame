@@ -41,7 +41,7 @@ ECS
 - DemoECS.cs      Creates an example store with some entities. Show how to customize EcGui.
 - DemoTypes.cs    Contains various example types: components, relations, tags, custom types and enums
 - TypeDrawers.cs  Custom TypeDrawer's are optional.
-                  They enable to render custom types in a single line. E.g. types like: Point, Color, ...
+                  They enable to render custom types in a single line. E.g. Point, Color, Sprite, ...
 
 ImGuiNet          Contains the source to connect MonoGame Input and Rendering to ImGui.NET.
                   This folder should be copied to your project as is.
