@@ -12,8 +12,17 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
 ## Goals
 
 - Provide instant access to entities their components, tags and relations at runtime via **Explorer** and **Inspector** window.
+
+- Provides a good understanding of how ECS query filters work by adding or removing components or tags in the **Explorer**.  
+  The demo allows you to immediately dive deep into ECS without coding.
+
 - **EcGui** accelerates development speed of your ECS significant.  
-  It makes the need of a debugger (Watch & Variables window) or logging in big parts obsolete.
+  It makes the need of a debugger (Watch & Variables window) or logging in big parts obsolete.  
+  Typical weak points using a debugger or logging:  
+  * Debugger: requires to stop process and finding all required data is time consuming.
+  * Logging: Overlogging impacts performance, disk space and bandwidth. Logging less data carries the risk of missing important data.  
+    Logging clutters the code with log statements and may introduced exceptions.    
+
 - Integration requires only 3 simple method calls:
   ```cs
   // on startup
@@ -29,6 +38,7 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
   ```
 
 - ECS data rendering, editing and interaction with the **EcGui** is instant.
+
 - The impact on game loop performance and rendering is negligible.  
   The entire execution time (ECS data access, layout and rendering) is ~0.1 - 0.5 ms per frame on a modern dev system.  
   The execution requires no heap allocation in common cases to prevent impacting performance by GC collections.
