@@ -24,7 +24,7 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
   ```
   Additional queries and systems can be added to the **Explorer** at any time with:
   ```cs
-  EcGui.AddExplorerQuery(myQuery, myQuery);
+  EcGui.AddExplorerQuery("myQuery", myQuery);
   EcGui.AddExplorerSystems(root);
   ```
 
