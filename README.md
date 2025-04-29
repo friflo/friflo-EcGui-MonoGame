@@ -39,7 +39,7 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
 ```
 ECS 
 - DemoECS.cs      Creates an example store with some entities. Show how to customize EcGui.
-- DemoType.cs     Contains various example types: components, relations, tags, custom types and enums
+- DemoTypes.cs    Contains various example types: components, relations, tags, custom types and enums
 - TypeDrawers.cs  Custom TypeDrawer's are optional.
                   They enable to render custom types in a single line. E.g. types like: Point, Color, ...
 
