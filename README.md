@@ -6,6 +6,9 @@ Minimal **MonoGame** setup to showcase use and integration of [**friflo EcGui**]
 
 Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.OpenGL.
 
+![friflo-EcGui-MonoGame](https://github.com/user-attachments/assets/5150eafe-fad8-4502-88c9-7ceb9b60cbc6)
+
+
 ## EcGui Goals
 
 - Provide instant access to entities their components, tags and relations at runtime via **Explorer** and **Inspector** window.
