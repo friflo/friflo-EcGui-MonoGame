@@ -19,9 +19,9 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
 - **EcGui** accelerates development speed of your ECS significant.  
   It makes the need of a debugger (Watch & Variables window) or logging in big parts obsolete.  
   Typical weak points using a debugger or logging:  
-  * Debugger: requires to stop process and finding all required data is time consuming.
-  * Logging: Overlogging impacts performance, disk space and bandwidth. Logging less data carries the risk of missing important data.  
-    Logging clutters the code with log statements and may introduced exceptions.    
+  * _Debugger:_ Requires to stop the process and finding all required data is time consuming.
+  * _Logging:_  Over logging impacts performance, disk space and bandwidth. Logging less data carries the risk of missing important data.  
+                Logging clutters the code with log statements and may introduce exceptions.  
 
 - Integration requires only 3 simple method calls:
   ```cs
