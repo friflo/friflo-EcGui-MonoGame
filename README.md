@@ -9,7 +9,7 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
 ![friflo-EcGui-MonoGame](https://github.com/user-attachments/assets/5150eafe-fad8-4502-88c9-7ceb9b60cbc6)
 
 
-## EcGui Goals
+## Goals
 
 - Provide instant access to entities their components, tags and relations at runtime via **Explorer** and **Inspector** window.
 - **EcGui** accelerates development speed of your ECS significant.  
@@ -38,12 +38,13 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
 
 ```
 ECS 
-- DemoECS.cs        - Creates an example store with some entities. Show how to customize EcGui.
-- DemoType.cs       - Contains various example types: components, relations, tags, custom types and enums
-- TypeDrawers.cs    - Are optional and showcase how to create custom TypeDrawer's for specific custom types like: Point, Color, ...
+- DemoECS.cs      Creates an example store with some entities. Show how to customize EcGui.
+- DemoType.cs     Contains various example types: components, relations, tags, custom types and enums
+- TypeDrawers.cs  Custom TypeDrawer's are optional.
+                  They enable to render custom types in a single line. E.g. types like: Point, Color, ...
 
-ImGuiNet            - Contains the source to connect MonoGame Input and Rendering to ImGui.NET.
-                      This folder should be copied to your project as is.
+ImGuiNet          Contains the source to connect MonoGame Input and Rendering to ImGui.NET.
+                  This folder should be copied to your project as is.
 ```
 
 ## License
