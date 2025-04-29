@@ -42,3 +42,9 @@ ECS
 ImGuiNet            - Contains the source to connect MonoGame Input and Rendering ImGui.NET.
                       This folder should be copied to your project as is.
 ```
+
+## License
+
+This project is licensed under MIT.  
+
+Copyright © 2025   Ullrich Praetz - https://github.com/friflo
