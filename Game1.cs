@@ -49,7 +49,6 @@ public class Game1 : Game
         ImGui.StyleColorsLight();       // optional
         EcGui.Setup.SetDefaultStyles(); // optional
         
-        Tests.Run();
         base.Initialize();
     }
 
@@ -59,7 +58,6 @@ public class Game1 : Game
         // TODO: use this.Content to load your game content here
         DemoECS.CreateEntityStore(this);    // set up your ECS here
         DemoECS.CustomizeEcGui(this);       // customize UI
-        TestEcGui.TestApi();
     }
 
     protected override void Update(GameTime gameTime) {

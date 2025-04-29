@@ -1,6 +1,6 @@
 # friflo EcGui - MonoGame
 
-Minimal **MonoGame** setup to showcase use and integration of **friflo ExGui**.
+Minimal **MonoGame** setup to showcase use and integration of [**friflo EcGui**](https://github.com/friflo/Friflo.Engine.ECS#ecgui).
 
 **friflo EcGui** can be integrated in every environment that support [**ImGui.NET**](https://github.com/ImGuiNET/ImGui.NET).
 
@@ -29,3 +29,16 @@ Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.Ope
 - The impact on game loop performance and rendering is negligible.  
   The entire execution time (ECS data access, layout and rendering) is ~0.1 - 0.5 ms per frame on a modern dev system.  
   The execution requires no heap allocation in common cases to prevent impacting performance by GC collections.
+
+
+## Folder structure
+
+```
+ECS 
+- DemoECS.cs        - Creates an example store with some entities. Show how to customize EcGui.
+- DemoType.cs       - Contains various example types: components, relations, tags, custom types and enums
+- TypeDrawers.cs    - Are optional and showcase how to create custom TypeDrawer's for specific custom types like: Point, Color, ...
+
+ImGuiNet            - Contains the source to connect MonoGame Input and Rendering ImGui.NET.
+                      This folder should be copied to your project as is.
+```
