@@ -42,7 +42,7 @@ ECS
 - DemoType.cs       - Contains various example types: components, relations, tags, custom types and enums
 - TypeDrawers.cs    - Are optional and showcase how to create custom TypeDrawer's for specific custom types like: Point, Color, ...
 
-ImGuiNet            - Contains the source to connect MonoGame Input and Rendering ImGui.NET.
+ImGuiNet            - Contains the source to connect MonoGame Input and Rendering to ImGui.NET.
                       This folder should be copied to your project as is.
 ```
 
