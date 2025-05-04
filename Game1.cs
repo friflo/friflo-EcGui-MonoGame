@@ -56,8 +56,8 @@ public class Game1 : Game
         spriteBatch = new SpriteBatch(GraphicsDevice);
 
         // TODO: use this.Content to load your game content here
-        DemoECS.CreateEntityStore(this);    // set up your ECS here
         DemoECS.CustomizeEcGui(this);       // customize UI
+        DemoECS.CreateEntityStore(this);    // set up your ECS here
     }
 
     protected override void Update(GameTime gameTime) {
