@@ -174,11 +174,9 @@ internal static class DemoECS
         animatedQuery = store.Query<Animated>();
         EcGui.AddExplorerQuery("Animated", animatedQuery);
         
-        var dragCells = store.Query<DragInt>();
-        EcGui.AddExplorerQuery("DragInt", dragCells);
-        
-        var tileSets = store.Query<TileSet>();
-        EcGui.AddExplorerQuery("TileSet", tileSets);
+        EcGui.AddExplorerQuery("DragInt",   store.Query<DragInt>());
+        EcGui.AddExplorerQuery("Tiles",     store.Query<Tile>());
+        EcGui.AddExplorerQuery("TileSets",  store.Query<TileSet>());
     }
 
     private static bool addEntities = true;
